@@ -15,6 +15,7 @@
     <link href="css/greyscale.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
     
+    
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -36,23 +37,30 @@
         <div class="intro-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Come Bring Me Dat</h1>
-                        <p class="intro-text">An awesome delivery service for the modern age.<br>Think the Uber of Delivery Services.</p>
-                    <div>
-                      <input id="mc-email" type="email" autocomplete="off" placeholder="Email Address...">
-                      <input id="mc-submit" type="submit" value="Get Notified">
-                    </div>
-                    </div>
+                  <!-- Insert the Text you want to display here -->
                 </div>
             </div>
         </div>
     </header>
     
+    <a id="bgndVideo" class="player"  data-property="{videoURL:'http://www.youtube.com/watch?v=kn-1D5z3-Cs',containment:'body',autoPlay:true, mute:false, startAt:0,opacity:1,ratio:'16/9', addRaster:true, realfullscreen:true}">My video</a>
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    
+    <!-- JS for mb.YTPlayer -->
+    <script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
+   
+    
     <!-- Latest compiled and minified JavaScript -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>  
+    <script>
+      jQuery(function(){
+                
+       // Uncomment the following line if you want to have a background video
+       // jQuery(".player").mb_YTPlayer();
+
+      })
+    </script>
   </body>
 </html>
