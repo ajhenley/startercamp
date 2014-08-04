@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     
     <!-- Custom CSS -->
-    <link href="css/greyscale.css" rel="stylesheet">
+    <link href="css/greyscale-video.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
     
     
@@ -38,7 +38,20 @@
             <div class="container">
                 <div class="row">
                   <!-- Insert the Text you want to display here -->
-                  
+                  <div class="col-md-7">
+                    <h1 align="left">Come Bring Me Dat</h1>
+                    <p class="intro-text" align="left">An awesome delivery service for the modern age.<br />
+                      Think the Uber of Delivery Services
+                      <br />Coming Soon.</p>
+                  </div>
+                  <div class="col-md-5">
+                    <h1 align="left">Leave Your Email</h1>
+                    <p>...to be notified when we launch</p>
+                    <div>
+                      <input id="mc-email" type="email" autocomplete="off" placeholder="Email Address...">
+                      <input id="mc-submit" type="submit" value="Get Notified">
+                    </div>
+                  </div>                  
                 </div>
             </div>
         </div>
@@ -59,7 +72,7 @@
       jQuery(function(){
                 
        // Uncomment the following line if you want to have a background video
-       // jQuery(".player").mb_YTPlayer();
+       jQuery(".player").mb_YTPlayer();
 
       })
     </script>
