@@ -12,4 +12,8 @@ This template gives you all of that.
 It will allow you to easily create a coming soon page with either a 
 solid color, a photo, or a video in the background.
 
+<a href="http://myphpbox-128151.use1.nitrousbox.com/startercamp/comingsoon/sample-photo.html">Photo Sample</a><br />
+<a href="http://myphpbox-128151.use1.nitrousbox.com/startercamp/comingsoon/sample-video.html">Video Sample</a><br />
+<a href="http://myphpbox-128151.use1.nitrousbox.com/startercamp/comingsoon/sample-color.html">Photo Sample</a><br />
+
 Instructions
